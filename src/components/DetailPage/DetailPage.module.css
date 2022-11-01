@@ -1,0 +1,102 @@
+.webinar{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #282520;
+}
+.webinar__header{
+    color: #282520; 
+    border-bottom: 1px solid gainsboro;
+}
+.webinar__header h2{
+    font-weight: 300;
+    font-size: calc(38px + 0.390625vw);
+}
+
+.display-flex{
+    display: table;
+    width: 100%;
+}
+.col{
+    display: table-cell;
+}
+
+
+
+.webinar__date h6{
+    line-height: 25.2px;
+    letter-spacing: 0.1px;
+    font-size: 15px;
+    color: #282520;
+    font-weight: 600;
+}
+.webinar__date p{
+    font-size: calc(16px + 0.390625vw);    
+}
+.webinar__date span{
+    font-size: calc(10px + 0.390625vw);  
+    color: #282520;
+    font-weight: light; 
+}
+.title{
+    font-weight: 500;
+    font-size: calc(10px + 0.390625vw);
+}
+
+p{
+    line-height: 30px;
+    font-size: calc(14px + 0.390625vw);
+}
+.webinarDetail h3{
+    font-size: calc(27px + 0.390625vw);
+}
+.speakerCard{
+    width: 35%;
+}
+.speakerCard p{
+    font-size: calc(10px + 0.390625vw);
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+
+.clockIcon, h3{
+    font-size: calc(18px + 0.390625vw);
+}
+ul li{
+    list-style-type: none;
+    padding: 0;
+}
+
+.agendaCol, .downloadCol{
+    width: 50%;
+    border: 1px solid #d8d4d4;
+    border-radius: 5px;
+}
+@media (min-width: 1550px) {
+    .webinar__date p{
+        font-size: calc(27px + 0.390625vw);    
+    }
+    .calenderCheckIcon{
+        color: #F8171F;
+        font-size: calc(40px + 0.390625vw);
+    }    
+}
+@media (max-width: 768px){
+    .speakerCard{
+        width: 100%;
+    }
+    p{
+        line-height: 25px;
+    }
+    .agendaCol, .downloadCol{
+        width: 100%;
+    }
+}
+@media (min-width:768px) and (max-width: 1024px){
+    .speakerCard{
+        width: 70%;
+    }
+    p{
+        line-height: 25px;
+    }
+}

@@ -1,0 +1,20 @@
+.card{
+    height: 100%;
+    width: 100%;
+    border: 1px solid #d8d4d4;
+    box-shadow: 2px 2px 5px -1px gainsboro;
+    border-radius: 5px;
+}
+.card img{
+    width: 100%;    
+    margin: 0;
+    margin-top: -1px;
+}
+.card div{
+    padding: 15px 25px;
+}
+@media (max-width: 1024px) {
+    .card div{
+        padding: 10px 20px;    
+    }
+}

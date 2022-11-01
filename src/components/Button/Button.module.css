@@ -1,0 +1,14 @@
+.button{
+    width: 100%;
+    background-color: #F8171F ;
+    padding: 15px 0px;
+    letter-spacing: 0.9px;
+    font-size: calc(7px + 0.390625vw);
+    text-transform: uppercase;
+    border: none;
+}
+.button a{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
